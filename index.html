@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Vanilla Documentation</title>
+</head>
+<body>
+    <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="https://assets.ubuntu.com/v1/94d962aa-vanilla_white-orange_hex.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="#">Example</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Accesibility</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Browser support</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contribute</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="first-heading">A simple, extensible CSS framework</h1>
+                <p class="pt-4">Backed by open-source code and written in Sass by the Canonical Web Team.</p>
+                <button type="button" class="btn btn-success col-lg-1">Get started</button>
+                <button type="button" class="btn btn-light col-lg-2 ms-4">Download Vanilla v2.33.0</button>
+            </div>
+ 
+        </div>       
+    </div>
+</main>
+    <div class="container first-container">
+        <div class="row threecols">
+            <div class="col-lg-4 col-md-12">
+                <img src="https://assets.ubuntu.com/v1/1958451f-pictogram_lightweight01b-dark.svg" alt="" class="images">
+                <h1 class="mt-4 md-4">Lightweight</h1>
+                <p>Vanilla contains a responsive CSS grid, basic style for HTML elements and a selection of key useful patterns and utility classes that you can extend.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <img src="https://assets.ubuntu.com/v1/730b14b9-pictogram_extension01-dark.svg" alt="" class="images">
+                <h1 class="mt-4 md-4">Composable</h1>
+                <p>Designed to be composable — you can include the whole framework to avail of all styles or you can use only what you need for your project.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <img src="https://assets.ubuntu.com/v1/1958451f-pictogram_lightweight01b-dark.svg" alt="" class="images">
+                <h1 class="mt-4 md-4">Open source</h1>
+                <p>Anyone can contribute to Vanilla, improve it and extend it. All the code is available on GitHub and is licensed under LGPLv3 by Canonical.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  border-top second-container">
+      <div class="row first">
+        <h1 class="pt-4">Quick Start</h1>
+      </div>
+        <div class="row second">
+            <div class="col-lg-5 col-sm-12 first-columns">
+              <p class="pt-2">The recommended method of including Vanilla Framework in your project is via npm. You can then simply include the framework in your SCSS files and compile.</p>
+              <p class="pt-2">For other methods, please see the advanced usage docs.</p>
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+          <div class="col-lg-5 col-sm-12 code">
+              <code>
+                  <p>exportnpm install --save-dev vanilla-framework
+                      SASS_PATH=`pwd`/node_modules:${SASS_PATH}</p>
+
+                    <p>// Add to your main build scss file the following line
+                     @import 'vanilla-framework/scss/build'
+              </code>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid border-top third-container">
+        <div class="row first-row">
+          <div class="col-lg-3 col-sm-12 first-column">
+            <h1>Guidelines</h1>
+            <p>you are contributing to Vanilla, make sure to read and follow these guidelines.</p>
+            <a href="" class="border-bottom">Accesibility</a>
+            <a href="" class="border-top">Browser Support</a>
+          </div>
+           <div class="col">
+
+          </div>
+          <div class="col-lg-5 col-sm-12 second-column mt-4">
+            <img src="https://assets.ubuntu.com/v1/af1e0f04-guidelines-illustration.svg" alt="">
+          </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid border-top border-bottom fourth-container">
+      <div class="row first-row">
+        <h1>Downloads</h1>
+      </div>
+      <div class="row second-row">
+        <div class="col-lg-4 col-sm-11 first-column">
+          <div class=" border shadow-sm p-3 mb-5 bg-body rounded">
+            <img src="https://assets.ubuntu.com/v1/0276b842-github-icon.svg" alt="">
+            <h3 style="display: inline-block;font-weight: 100;" class="pt-2">Vanilla Framework</h3>
+            <p>Use our CSS framework to start building your project.</p>
+  
+            <div class="border mb-2 p-1" style="width: fit-content;">Download latest Vanilla v2.33.0 </div>
+  
+            <p>See the release notes for details on the latest updates.</p>
+          </div>
+        </div>
+        <div style="width: 2em;"></div>
+
+        <div class="col-lg-4 col-sm-11 second-column" >
+          <div class=" border shadow-sm p-3 mb-5 bg-body rounded">
+            <img src="https://assets.ubuntu.com/v1/9a5b9c51-sketch-icon.svg" alt="">
+          <h3 style="display: inline-block;font-weight: 100;" class="pt-2">Vanilla Design</h3>
+          <p>Get our Sketch library of common design components.</p>
+
+          <div class="border mb-2 p-1" style="width: fit-content;">Download the Sketch UI Kit</div>
+
+          <p>Filesize - 2.4 MB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid border-top border-bottom fifth-container">
+      <div class="row first-row">
+        <h2>Latest news from our blog</h2>
+      </div>
+      <div class="row second-row">
+        <div class="col-lg-3 col-sm-6">
+          <h3><a href="">Taming unruly logo sections</a></h3>
+
+          <time>30 April 2021</time>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <h3><a href="">Improving the code experience in Vanilla</a></h3>
+
+          <time>16 February 2021</time>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <h3><a href="">Automating our Vanilla releases with GitHub actions</a></h3>
+
+          <time>3 November 2020</time>          
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <h3><a href="">Accessibility audit of Vanilla framework</a></h3>
+
+          <p style="font-style: italic;">31 March 2020</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+</body>
+</html>
+

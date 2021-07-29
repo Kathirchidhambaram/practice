@@ -1,0 +1,222 @@
+
+.header-link:hover{
+    text-decoration: none;
+}
+
+main,.second-container,.first-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main{
+    background-image: url("background-image.jpg");
+    height: 30em;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    background-color: #4a4a4a;
+    
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.second-btn{
+    background-color: #ffffff;
+}
+
+.second-btn:hover{
+    background-color: #f9fafb;
+}
+
+.images{
+    height: 2rem;
+    width: 2rem;
+}
+
+.first-container{
+    margin-top: 6rem;
+}
+
+.second-container>div.row{
+    justify-content: center;    
+}
+
+.second-container>div.second{
+    margin-bottom: 2em;
+}
+
+.third-container>div.first-row{
+    margin: 2em 0;
+}
+/* .third-container>div.second-column{
+    margin : 2em 0;
+} */
+.code{
+    background-color: rgba(0, 0 ,0 ,0.03);
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.fourth-container>div.first-row,.fifth-container>div.first-row,.seventh-container>div.first-row,.sixth-container>div.first-row{
+    margin-top: 2em;
+}
+
+.fifth-container>div.second-row
+{
+margin-top: 1em;
+}
+h3{
+    font-weight: 100;
+}
+/* main{
+    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+} */
+
+time{
+    font-style: italic;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.border:hover{
+    background-color:#f9fafb;
+    cursor: pointer;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.seven-second-column,.seven-third-column{
+    margin-top: 2em;
+}
+
+.sixth-container{
+    margin-top: 2em;
+}
+
+.eigth-container{
+    margin-top: 2em;
+    background-color: #f9fafb;
+    border-top: 1px solid #f9fafb!important;
+}
+
+li{
+    display: inline-block;
+}
+
+.eigth-first-column{
+    margin-top: 1em;
+}
+
+@media screen and (min-width : 600px)
+{
+    body{
+        margin : 0;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        margin-left: 12rem;
+    }
+    main{
+        margin-left: 12rem;
+    }
+
+    .main-second-row{
+        margin-left: 0.1em;
+    }
+
+    .images{
+        height: 2.5rem;
+    width: 2.5rem;
+    }
+
+    .threecols{
+        width: 70rem;
+        margin: 0 auto;
+    }
+/*     .first-container{
+        margin-top: 24rem;
+    } */
+
+    .second-container{
+        margin-top : 5em;
+    }
+    .second-container>div.first{
+        width: 70rem;
+        margin-top: 5em;
+        margin-left : auto;
+        margin-right : auto;
+    }
+    .second-container>div.second{
+        width: 70rem;
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+
+    .third-container>div.first-row{
+        margin : 5em auto;
+        width: 70rem;
+    }
+
+    .fourth-container>div.first-row,.fifth-container>div.first-row,.sixth-container>div.first-row,.seventh-container>div.first-row{
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 72em;
+    }
+
+    .fourth-container>div.second-row,.fifth-container>div.second-row{
+        margin-bottom: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 72em;
+    }
+    .fourth-container>div.second-row>div.second-column>div.rounded{
+        height: 15.75em;
+    }
+    .fifth-container>div.second-row{
+        margin-top: 2em;
+    }
+    .sixth-container>div.second-row{
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50em;
+    }
+    .p{
+        text-align: center;
+        font-size: 0.75em;
+    }
+    .seven-second-column,.seven-third-column{
+        margin-top: 0;
+    }
+    .eigth-container{
+        margin-top: 5em;
+    }
+    .eigth-first-row{
+        margin-top: 5em;
+        margin-left: 11em;
+    }
+    
+    .eigth-second-row{
+        margin-bottom: 5em;
+    }
+    .eigth-first-column{
+        margin-top: 0;
+    }
+
+}
